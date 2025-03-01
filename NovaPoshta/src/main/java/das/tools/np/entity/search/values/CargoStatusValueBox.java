@@ -2,9 +2,6 @@ package das.tools.np.entity.search.values;
 
 
 import das.tools.np.entity.db.CargoStatus;
-import das.tools.np.entity.search.SearchIntValue;
-import das.tools.np.entity.search.SearchStringValue;
-import das.tools.np.entity.search.SearchTypeValue;
 import das.tools.np.entity.search.ValueCondition;
 import das.tools.np.gui.controllers.search.options.SearchCondition;
 import javafx.geometry.Pos;

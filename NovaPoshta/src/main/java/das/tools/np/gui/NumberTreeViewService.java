@@ -11,7 +11,6 @@ import javafx.scene.control.TreeCell;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import lombok.extern.slf4j.Slf4j;
-import org.controlsfx.glyphfont.FontAwesome;
 import org.controlsfx.glyphfont.GlyphFont;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;

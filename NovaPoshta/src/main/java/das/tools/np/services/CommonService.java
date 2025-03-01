@@ -2,7 +2,6 @@ package das.tools.np.services;
 
 import das.tools.np.entity.db.SimpleNumber;
 import javafx.collections.ObservableList;
-import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 

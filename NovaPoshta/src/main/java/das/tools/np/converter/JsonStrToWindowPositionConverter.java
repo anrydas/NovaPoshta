@@ -3,7 +3,6 @@ package das.tools.np.converter;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import das.tools.np.entity.WindowPosition;
-import das.tools.np.entity.search.SearchParams;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.convert.converter.Converter;
 

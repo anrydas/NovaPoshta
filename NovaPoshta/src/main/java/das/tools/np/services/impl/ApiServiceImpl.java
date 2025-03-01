@@ -1,6 +1,5 @@
 package das.tools.np.services.impl;
 
-import das.tools.np.entity.db.ExtraPhone;
 import das.tools.np.entity.db.NumberToPhone;
 import das.tools.np.entity.request.AppRequest;
 import das.tools.np.entity.request.Document;

@@ -3,7 +3,6 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
 <AnchorPane fx:id="root" prefHeight="213.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="das.tools.np.gui.controllers.ConfigController">
    <VBox layoutX="82.0" layoutY="14.0" prefHeight="346.0" prefWidth="535.0" spacing="5.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
       <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="600.0" spacing="10.0">

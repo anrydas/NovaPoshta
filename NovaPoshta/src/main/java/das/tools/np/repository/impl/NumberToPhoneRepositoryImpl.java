@@ -1,6 +1,5 @@
 package das.tools.np.repository.impl;
 
-import das.tools.np.entity.db.ExtraPhone;
 import das.tools.np.entity.db.NumberToPhone;
 import das.tools.np.repository.CargoNumberRepository;
 import das.tools.np.repository.ExtraPhonesRepository;
@@ -13,7 +12,6 @@ import org.springframework.stereotype.Repository;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
-import java.util.List;
 
 @Repository
 @Slf4j

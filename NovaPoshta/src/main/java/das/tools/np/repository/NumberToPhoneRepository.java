@@ -1,9 +1,6 @@
 package das.tools.np.repository;
 
-import das.tools.np.entity.db.ExtraPhone;
 import das.tools.np.entity.db.NumberToPhone;
-
-import java.util.List;
 
 public interface NumberToPhoneRepository {
     String TABLE_NAME = "number_to_phone";

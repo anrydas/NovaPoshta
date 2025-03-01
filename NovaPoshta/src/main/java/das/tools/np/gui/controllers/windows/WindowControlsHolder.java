@@ -2,7 +2,6 @@ package das.tools.np.gui.controllers.windows;
 
 import das.tools.np.entity.db.CargoNumber;
 import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;

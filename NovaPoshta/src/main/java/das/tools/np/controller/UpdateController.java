@@ -2,7 +2,6 @@ package das.tools.np.controller;
 
 import das.tools.np.gui.RunInThread;
 import das.tools.np.gui.controllers.MainController;
-import javafx.application.Platform;
 import lombok.extern.slf4j.Slf4j;
 import net.rgielen.fxweaver.core.FxWeaver;
 import org.springframework.scheduling.annotation.Async;

@@ -1,6 +1,5 @@
 package das.tools.np.gui;
 
-import das.tools.np.services.impl.CommonServiceImpl;
 import javafx.animation.FadeTransition;
 import javafx.scene.Node;
 import javafx.scene.Scene;

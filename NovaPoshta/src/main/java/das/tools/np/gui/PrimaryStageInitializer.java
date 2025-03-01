@@ -1,7 +1,6 @@
 package das.tools.np.gui;
 
 import das.tools.np.entity.StageReadyEvent;
-import das.tools.np.entity.WindowPosition;
 import das.tools.np.gui.controllers.MainController;
 import das.tools.np.gui.controllers.MainControllerImpl;
 import das.tools.np.gui.enums.WindowType;
