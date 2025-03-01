@@ -1,0 +1,15 @@
+TextFlow {
+    -fx-background-color: darkgray;
+}
+#error-text {
+    -fx-fill: red;
+    -fx-font-weight: bold;
+}
+#warn-text {
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+#info-text {
+    -fx-fill: blue;
+}
