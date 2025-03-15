@@ -6,6 +6,8 @@
 ![Logo](NovaPoshta/help/images/app_logo.png)
 
 ### ⏬ Getting
-📖 Read [REDME.md](NovaPoshta/README.md)
+📖 Read [README.md](NovaPoshta/README.md)
+
 You can download archive from [Releases section](https://github.com/anrydas/NovaPoshta/releases) or clone the repository.
+
 Find full application's documentation at: [Ukrainian](help/uk/help.md) and [English](help/en/help.md).
