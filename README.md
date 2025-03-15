@@ -10,4 +10,4 @@
 
 You can download archive from [Releases section](https://github.com/anrydas/NovaPoshta/releases) or clone the repository.
 
-Find full application's documentation at: [Ukrainian](help/uk/help.md) and [English](help/en/help.md).
+Find full application's documentation at: [Ukrainian](NovaPoshta/help/uk/help.md) and [English](NovaPoshta/help/en/help.md).
