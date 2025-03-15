@@ -1,0 +1,9 @@
+.search-caption-label {
+    -fx-font-weight: bold; -fx-font-size: 12pt;
+}
+.search-name-label {
+    -fx-font-weight: bold; -fx-font-size: 10pt;
+}
+.search-options-pane {
+    -fx-background-color: rgba(210,210,210,0.95);
+}

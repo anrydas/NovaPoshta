@@ -1,0 +1,44 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.2.0 http://maven.apache.org/xsd/assembly-2.2.0.xsd">
+    <id>zip</id>
+    <includeBaseDirectory>true</includeBaseDirectory>
+
+    <formats>
+        <format>zip</format>
+    </formats>
+    <files>
+        <file>
+            <source>${project.build.directory}/${project.artifactId}.jar</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/src/main/resources/application.properties</source>
+            <outputDirectory>/</outputDirectory>
+            <destName>application-default.properties</destName>
+        </file>
+        <file>
+            <source>${project.basedir}/DB/np_empty.db</source>
+            <outputDirectory>/DB</outputDirectory>
+            <destName>np.db</destName>
+        </file>
+        <file>
+            <source>${project.basedir}/run.sh</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/run.cmd</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <file>
+            <source>${project.basedir}/src/main/resources/images/np_app_icon.ico</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+    </files>
+    <fileSets>
+        <fileSet>
+            <outputDirectory>plugins</outputDirectory>
+            <excludes><exclude>**/*</exclude></excludes>
+        </fileSet>
+    </fileSets>
+</assembly>

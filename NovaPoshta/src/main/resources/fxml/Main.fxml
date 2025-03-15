@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="das.tools.np.gui.controllers.MainControllerImpl">
+    <SplitPane fx:id="spLog" dividerPositions="1.0" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+            <BorderPane fx:id="pnTop" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <top>
+                    <VBox fx:id="vbMenu" />
+                </top>
+                <center>
+                    <SplitPane fx:id="spNumberList" dividerPositions="0.36" prefHeight="305.0" prefWidth="386.0" BorderPane.alignment="CENTER">
+                        <AnchorPane fx:id="pnNumbers" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <HBox alignment="CENTER" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <HBox fx:id="hbViewMode" alignment="CENTER" spacing="5.0">
+                                    <ComboBox fx:id="cbViewMode" prefHeight="26.0" prefWidth="100.0" stylesheets="@/css/combo-box.css" />
+                                </HBox>
+                                <HBox fx:id="hbViewFilter" alignment="CENTER" spacing="5.0">
+                                    <ComboBox fx:id="cbViewFilter" prefHeight="26.0" prefWidth="100.0" stylesheets="@/css/combo-box.css" />
+                                </HBox>
+                            </HBox>
+                            <ListView fx:id="lvNumbers" prefHeight="328.0" prefWidth="176.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0" />
+                            <TreeView fx:id="tvGroups" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0" />
+                            <TreeView fx:id="tvCalendar" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="28.0" />
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <BorderPane layoutX="54.0" layoutY="88.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <top>
+                                    <HBox fx:id="hbNumber" alignment="CENTER" BorderPane.alignment="CENTER">
+                                        <Label fx:id="lbNumber" alignment="CENTER" prefHeight="21.0" prefWidth="237.0">
+                                            <font>
+                                                <Font size="18.0" />
+                                            </font>
+                                        </Label>
+                              <padding>
+                                 <Insets top="10.0" />
+                              </padding>
+                                    </HBox>
+                                </top>
+                        <center>
+                           <AnchorPane fx:id="pnRoot" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+                        </center>
+                            </BorderPane>
+                        </AnchorPane>
+                    </SplitPane>
+                </center>
+                <bottom>
+                </bottom>
+            </BorderPane>
+        </AnchorPane>
+        <AnchorPane fx:id="pnLog" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+            <TextFlow fx:id="txLog" prefHeight="79.0" prefWidth="600.0" stylesheets="@/css/log.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" BorderPane.alignment="CENTER">
+                <BorderPane.margin>
+                    <Insets left="5.0" right="5.0" />
+                </BorderPane.margin>
+            <padding>
+               <Insets left="5.0" right="5.0" />
+            </padding></TextFlow>
+        </AnchorPane>
+    </SplitPane>
+</AnchorPane>

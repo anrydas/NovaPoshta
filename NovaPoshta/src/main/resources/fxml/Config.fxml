@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="root" prefHeight="213.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="das.tools.np.gui.controllers.ConfigController">
+   <VBox layoutX="82.0" layoutY="14.0" prefHeight="346.0" prefWidth="535.0" spacing="5.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="600.0" spacing="10.0">
+         <Label fx:id="lbUrl" alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="89.0" text="URL:" />
+         <TextField fx:id="edUrl" prefHeight="31.0" prefWidth="314.0" />
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="43.0" prefWidth="600.0" spacing="10.0">
+         <Label fx:id="lbPhone" alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="132.0" text="Phone:" />
+         <TextField fx:id="edPhone" prefHeight="31.0" prefWidth="244.0" promptText="+38 0XX 123-45-67" />
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="63.0" prefHeight="43.0" prefWidth="600.0" spacing="10.0">
+         <Label fx:id="lbLanguage" alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="134.0" text="Language:" />
+         <ComboBox fx:id="cbLanguage" prefHeight="31.0" prefWidth="220.0" />
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="63.0" prefHeight="43.0" prefWidth="600.0" spacing="10.0">
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+         <CheckBox fx:id="chbAutoUpdate" mnemonicParsing="false" prefHeight="18.0" prefWidth="246.0" selected="true" text="Enable Auto Update" />
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="63.0" prefHeight="43.0" prefWidth="600.0" spacing="10.0">
+         <Label fx:id="lbMaxRecords" alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="167.0" text="Max search history records:" />
+         <Spinner fx:id="spMaxHistoryRecords" editable="true" prefHeight="30.0" prefWidth="118.0" />
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="63.0" prefHeight="43.0" prefWidth="600.0" spacing="10.0">
+         <Label fx:id="lbMaxLogRecords" alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="167.0" text="Max LOG records:" />
+         <Spinner fx:id="spMaxLogRecords" editable="true" prefHeight="30.0" prefWidth="118.0" />
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </VBox>
+   <HBox alignment="CENTER" layoutY="226.0" prefHeight="54.0" prefWidth="600.0" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <Button fx:id="btOk" defaultButton="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="OK" />
+      <Button fx:id="btCancel" cancelButton="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Cancel" />
+      <padding>
+         <Insets bottom="10.0" top="10.0" />
+      </padding>
+   </HBox>
+   <padding>
+      <Insets top="10.0" />
+   </padding>
+</AnchorPane>

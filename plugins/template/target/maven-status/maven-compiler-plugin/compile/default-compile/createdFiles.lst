@@ -1,0 +1,11 @@
+das\tools\np\entity\plugin\PluginInfo.class
+das\tools\np\entity\plugin\PluginInfo$PluginInfoBuilder.class
+das\tools\np\entity\db\CargoNumber$CargoNumberBuilder.class
+das\tools\np\entity\db\CargoNumber.class
+das\tools\np\entity\db\Group$GroupBuilder.class
+das\tools\np\entity\db\Group.class
+das\tools\np\entity\response\ResponseData.class
+das\tools\np\entity\db\NumberType.class
+das\tools\np\entity\response\ResponseData$ResponseDataBuilder.class
+das\tools\np\entity\db\CargoStatus.class
+das\tools\np\entity\plugin\PluginInterface.class

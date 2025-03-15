@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="root" prefHeight="530.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="das.tools.np.gui.controllers.search.SearchController">
+   <BorderPane fx:id="bpMain" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <top>
+         <VBox spacing="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+            <HBox fx:id="hbSearchFor" alignment="CENTER" prefHeight="41.0" prefWidth="200.0" spacing="10.0">
+               <Label fx:id="lbSearchFor" text="Search for:" />
+               <TextField fx:id="edSearchText" prefHeight="26.0" prefWidth="417.0" promptText="Enter search text">
+                  <HBox.margin>
+                     <Insets />
+                  </HBox.margin>
+               </TextField>
+               <Button fx:id="btSearch" mnemonicParsing="false" />
+            </HBox>
+            <VBox fx:id="vbParams">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+               <HBox fx:id="hbSearchOptions" alignment="CENTER_LEFT" prefHeight="31.0" prefWidth="579.0" spacing="10.0">
+                  <Label fx:id="lbSearchOptions" text="Options:" />
+                  <RadioButton fx:id="rbSimpleSearch" mnemonicParsing="false" selected="true" text="Simple search">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tgSearchOptions" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="rbExtSearch" mnemonicParsing="false" text="Extended search" toggleGroup="$tgSearchOptions" />
+               </HBox>
+            </VBox>
+            <HBox fx:id="hbResultsHeader" alignment="CENTER" prefHeight="19.0" prefWidth="579.0" spacing="15.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+               <Label fx:id="lbSearchResults" text="Search Results">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></Label>
+            </HBox>
+         </VBox>
+      </top>
+   </BorderPane>
+</AnchorPane>

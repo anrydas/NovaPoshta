@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane fx:id="root" prefHeight="221.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="das.tools.np.gui.controllers.AddNumberController">
+   <BorderPane layoutX="107.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <bottom>
+         <HBox alignment="CENTER" prefHeight="51.0" prefWidth="450.0" spacing="20.0" BorderPane.alignment="CENTER">
+            <Button fx:id="btOk" defaultButton="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="OK" />
+            <Button fx:id="btCancel" cancelButton="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="Cancel" />
+         </HBox>
+      </bottom>
+      <center>
+         <AnchorPane prefHeight="185.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+            <VBox layoutX="151.0" layoutY="24.0" prefHeight="206.0" prefWidth="450.0" spacing="10.0" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <Label fx:id="lbNumber" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="78.0" text="Number:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="edNumber" prefHeight="30.0" prefWidth="282.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+                  <padding>
+                     <Insets top="5.0" />
+                  </padding>
+               </HBox>
+               <HBox fx:id="hbType" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <Label fx:id="lbType" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="78.0" text="Type:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="cbType" prefHeight="26.0" prefWidth="194.0" />
+               </HBox>
+               <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <Label fx:id="lbPhone" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="78.0" text="Phone:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="cbPhone" editable="true" prefHeight="26.0" prefWidth="194.0" />
+                  <Button fx:id="btAddPhone" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" />
+                  <Button fx:id="btEditPhones" mnemonicParsing="false" prefHeight="25.0" prefWidth="30.0" />
+               </HBox>
+               <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <Label fx:id="lbGroup" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="78.0" text="Group:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="cbGroup" prefHeight="26.0" prefWidth="194.0" />
+               </HBox>
+               <HBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <Label fx:id="lbComment" alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="78.0" text="Comment:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="edComment" prefHeight="26.0" prefWidth="348.0" promptText="Comment for new Cargo Number (could be empty)" />
+                  <padding>
+                     <Insets top="5.0" />
+                  </padding>
+               </HBox>
+               <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="58.0" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <padding>
+                     <Insets left="10.0" />
+                  </padding>
+                  <CheckBox fx:id="chbAutoUpdate" mnemonicParsing="false" prefHeight="19.0" prefWidth="219.0" text="Auto update">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+               </HBox>
+               <HBox alignment="CENTER" layoutX="10.0" layoutY="106.0" prefHeight="37.0" prefWidth="450.0" spacing="10.0">
+                  <padding>
+                     <Insets left="10.0" />
+                  </padding>
+                  <CheckBox fx:id="chbAddAnother" mnemonicParsing="false" prefHeight="18.0" prefWidth="191.0" text="Add another number" />
+               </HBox>
+            </VBox>
+         </AnchorPane>
+      </center>
+   </BorderPane>
+</AnchorPane>
