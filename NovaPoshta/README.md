@@ -24,7 +24,7 @@ That it.
 - archiving completed/unused numbers
 - visually logging main application's events
 ### ⏬ Getting
-You can download archive from [Releases section](https://github.com/NpTracker/releases) or clone the repository.
+You can download archive from [Releases section](https://github.com/anrydas/NovaPoshta/releases) or clone the repository.
 Find full application's documentation at: [Ukrainian](help/uk/help.md) and [English](help/en/help.md).
 ### 🚀 Launch<a id='Launch'/>
 The application's distribution included run.cmd or run.sh depended on your OS. Just launch it.
