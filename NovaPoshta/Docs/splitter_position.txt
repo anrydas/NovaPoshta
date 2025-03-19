@@ -1,4 +1,0 @@
-
-spNumberList.getDividers().get(0).positionProperty().addListener((obs, oldVal, newVal) -> {
-    log.info("divider old={} new={}", oldVal, newVal);
-});
