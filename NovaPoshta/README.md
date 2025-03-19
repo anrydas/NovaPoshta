@@ -28,7 +28,7 @@ You can download archive from [Releases section](https://github.com/anrydas/Nova
 Find full application's documentation at: [Ukrainian](help/uk/help.md) and [English](help/en/help.md).
 ### 🚀 Launch<a id='Launch'/>
 First you need to set the `JFX_PATH` variable as full path to JavaFX in provided `run.*` script.<br/>
-If you haven't the JavaFX you need to install it from https://gluonhq.com/products/javafx/<br/>
+If you haven't the JavaFX you need to install it from [https://gluonhq.com/products/javafx/](https://gluonhq.com/products/javafx/)<br/>
 The application's distribution included run.cmd or run.sh depended on your OS. Just launch it.<br/>
 Note: `run.*` script need to `JAVA_HOME` environment variable. If it doesn't provided made changes into script to include full path to JRE.
 ### 📜 Main Window<a id='MainWin'/>
