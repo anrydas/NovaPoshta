@@ -35,6 +35,8 @@ build/
 
 ### App ###
 *.properties
+!application.properties
+!lang*.properties
 mvnw
 mvnw.cmd
 *.zip
