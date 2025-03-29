@@ -10,7 +10,7 @@
 		<relativePath/>
 	</parent>
 	<properties>
-		<app.version>1.1</app.version>
+		<app.version>1.2</app.version>
 		<java.version>17</java.version>
 		<fxweavr.version>1.3.0</fxweavr.version>
 		<jackson.version>2.17.0</jackson.version>
